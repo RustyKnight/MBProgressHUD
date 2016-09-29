@@ -282,7 +282,7 @@
 
 	// Change the background view style and color.
 	hud.backgroundView.style = MBProgressHUDBackgroundStyleSolidColor;
-	hud.backgroundView.color = [UIColor colorWithWhite:0.f alpha:0.1f];
+	hud.backgroundView.color = [UIColor colorWithWhite:0.f alpha:0.5f];
 
 	dispatch_async(dispatch_get_global_queue(QOS_CLASS_USER_INITIATED, 0), ^{
 		[self doSomeWork];
